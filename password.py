@@ -9,9 +9,9 @@ import string
 print(t)
 x = 0 
 password = ""
-y = input('Você deseja gerar uma senha? S/N ')
+y = input('Voce deseja gerar uma senha? S/N ')
 if y == 'S':
-    qtd = int(input('Digite a quantidade de caracteres que você deseja na sua senha: '))
+    qtd = int(input('Digite a quantidade de caracteres que voce deseja na sua senha: '))
 else:
     exit()
 
@@ -20,6 +20,7 @@ for x in range(qtd):
     password += i
 
 print(password)
+input('Pressione enter para fechar a aplicacao')
 
 
 
