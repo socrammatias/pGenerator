@@ -7,7 +7,6 @@ t =  """___________    ______ ________  _  _____________  __| _/
 import random
 import string
 print(t)
-x = 0 
 password = ""
 y = input('Voce deseja gerar uma senha? S/N ')
 if y == 'S':
@@ -21,8 +20,3 @@ for x in range(qtd):
 
 print(password)
 input('Pressione enter para fechar a aplicacao')
-
-
-
-
-
