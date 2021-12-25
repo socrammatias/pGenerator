@@ -19,4 +19,4 @@ for x in range(qtd):
     password += i
 
 print(password)
-input('Pressione enter para fechar a aplicacao')
+input('Pressione enter para fechar a aplicacao.')
