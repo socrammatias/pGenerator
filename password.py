@@ -14,7 +14,7 @@ if y == 'S':
 else:
     exit()
 
-for x in range(qtd):
+for x in range (qtd):
     i = random.choice(string.ascii_lowercase + string.digits + string.ascii_uppercase)
     password += i
 
